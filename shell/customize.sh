@@ -27,19 +27,20 @@ sudo fc-cache -fv
 sudo apt install -y ruby ruby-dev ruby-colorize libncurses5-dev libtinfo-dev 
 sudo gem install colorls
 
-#Tornando o ZSH o shell padrão
-chsh -s $(which zsh)
-
 #Mensagem de configuração
 echo -e " -------------------------------------------"
 echo -e "|          INSTALAÇÃO FINALIZADA            |"
 echo -e " -------------------------------------------"
-echo -e "| REALIZE AS AÇÕES A SEGUIR:                |"
-echo -e "| 1 - Abra o terminator;                    |"
-echo -e "| 2 - Dentro da guia PROFILE, selecione a   |"
+echo -e "|        REALIZE AS AÇÕES A SEGUIR:         |"
+echo -e " -------------------------------------------"
+echo -e "| 1 - Execute no shell o comando:           |"
+echo -e "|     chsh -s $(which zsh)                  |"
+echo -e "|     para tonar o ZSH seu shell padrão;    |"
+echo -e "| 2 - Abra o terminator;                    |"
+echo -e "| 3 - Dentro da guia PROFILE, selecione a   |"
 echo -e "|     guia GENERAL e use a FONTE:           |"
 echo -e "|     MesloLGS NF RegularForPowerline 18;   |"
-echo -e "| 3 - Feche e abra novamente o terminator;  |"
-echo -e "| 4 - Teste a visualização de seus arquivos |"    
+echo -e "| 4 - Feche e abra novamente o terminator;  |"
+echo -e "| 5 - Teste a visualização de seus arquivos |"    
 echo -e "|     com os comandos l e ll.               |"
 echo -e " -------------------------------------------"
