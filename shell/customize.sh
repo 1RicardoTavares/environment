@@ -8,7 +8,7 @@
 #
 
 #Instalação do ZSH
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade && sudo apt autoremove
 sudo apt install -y curl terminator zsh
 chsh -s $(which zsh)
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
