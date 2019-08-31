@@ -13,7 +13,7 @@ sudo apt install -y curl terminator zsh
 chsh -s $(which zsh)
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 wget https://raw.githubusercontent.com/1RicardoTavares/environment/master/shell/zshrc.txt -O ~/.zshrc
-curl -sfL git.io/antibody | sh -s - -b /usr/local/bin
+curl -sfL git.io/antibody | sudo sh -s - -b /usr/local/bin
 
 #Instalação de fonte Meslo
 cd /tmp 
