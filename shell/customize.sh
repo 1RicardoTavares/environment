@@ -4,7 +4,7 @@
 # 
 # Author: Ricardo Ribeiro Tavares (@1RicardoTavares)
 # License: BSD 3-Clause
-# https://github.com/1RicardoTavares/Offensive-PowerShell
+# https://github.com/1RicardoTavares/environment/
 #
 
 #Instalação do ZSH
