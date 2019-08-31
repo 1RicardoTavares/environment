@@ -13,7 +13,6 @@ sudo apt install -y curl terminator zsh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 wget https://raw.githubusercontent.com/1RicardoTavares/environment/master/shell/zshrc.txt -O ~/.zshrc
 sudo cp ~/.zshrc /root
-#chsh -s $(which zsh)
 curl -sfL git.io/antibody | sudo sh -s - -b /usr/local/bin
 
 #Instalação da fonte Meslo
@@ -27,6 +26,9 @@ sudo fc-cache -fv
 #Instalacão do colorls
 sudo apt install -y ruby ruby-dev ruby-colorize libncurses5-dev libtinfo-dev 
 sudo gem install colorls
+
+#Tornando o ZSH o shell padrão
+chsh -s $(which zsh)
 
 #Mensagem de configuração
 echo -e " -------------------------------------------"
