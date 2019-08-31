@@ -94,9 +94,4 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time status rvm ram load)
 alias l='colorls --group-directories-first --all'
 alias ll='colorls --group-directories-first --all --long'
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 export PATH="/usr/sbin:$PATH"
