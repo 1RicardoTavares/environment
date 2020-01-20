@@ -19,7 +19,6 @@ SAVEHIST=$HISTSIZE
 HIST_FORMAT="'%Y-%m-%d %T'$(echo -e '\t')"
 alias history="fc -t "$HIST_FORMAT" -il 1"
 
-
 # Options
 setopt auto_cd # cd by typing directory name if it's not a command
 setopt auto_list # automatically list choices on ambiguous completion
@@ -45,7 +44,6 @@ antibody bundle zdharma/fast-syntax-highlighting
 antibody bundle zsh-users/zsh-autosuggestions
 antibody bundle zsh-users/zsh-history-substring-search
 antibody bundle zsh-users/zsh-completions
-antibody bundle marzocchi/zsh-notify
 antibody bundle buonomo/yarn-completion
 antibody bundle romkatv/powerlevel10K
 
